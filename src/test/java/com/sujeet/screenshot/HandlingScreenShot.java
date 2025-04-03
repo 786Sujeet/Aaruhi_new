@@ -21,7 +21,7 @@ import org.openqa.selenium.io.FileHandler;
 		File src=screen.getScreenshotAs(OutputType.FILE);
 		File dest=new File("C:\\Sujeet Yadav\\ScreenShot\\TestAuto2.jpeg");
 		FileHandler.copy(src, dest);
-
+driver.close();
 		}
 
 
