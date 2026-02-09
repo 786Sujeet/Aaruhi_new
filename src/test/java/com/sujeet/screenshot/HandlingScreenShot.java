@@ -15,7 +15,7 @@ import org.openqa.selenium.io.FileHandler;
 		public static void main(String[] args) throws IOException {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().window().minimize();
+		
 		driver.get("https://testautomationpractice.blogspot.com/");
 		
 		TakesScreenshot screen=(TakesScreenshot) driver;
